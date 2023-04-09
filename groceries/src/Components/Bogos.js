@@ -45,7 +45,6 @@ const BOGOs = () => {
           </li>
         ))}
       </ul>
-      <button>View all</button>
     </div>
   )
 }

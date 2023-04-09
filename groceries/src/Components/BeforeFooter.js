@@ -2,112 +2,117 @@ import React from 'react'
 
 function BeforeFooter() {
   return (
-    <div>
-      <h2>Shop with us</h2>
-      <ul>
-        <li>
+    <div className='flex justify-evenly bg-gray-200' style={{ height: '35vh' }}>
+      <div>
+        <h2>Shop with us</h2>
+        <div>
           <a href="#">Locations</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Publix FAQ</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Contact us</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Coronavirus updates</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Policies</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Recalls</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Apps</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Club Publix membership</a>
-        </li>
-        <li>
-          <a href="#">Work with us</a>
-        </li>
-        <li>
+        </div>
+      </div>
+      <div>
+
+        <h2>Work with us</h2>
+
+        <div>
           <a href="#">About Publix</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Careers</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Sustainability</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Community</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Business partners</a>
-        </li>
-        <li>
-          <a href="#">Services youll love</a>
-        </li>
-        <li>
+        </div>
+      </div>
+      <div>
+        <h2>Services youll love</h2>
+
+        <div>
           <a href="#">Special item requests</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Presto! ATM</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Aprons recipes</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Publix Catering</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Aprons Cooking School</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Health &amp; wellness</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Birthday celebrations</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Shelf tags &amp; icons</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Wedding services</a>
-        </li>
-        <li>
-          <a href="#">More ways to shop</a>
-        </li>
-        <li>
+        </div>
+      </div>
+      <div>
+
+        <h2 href="#">More ways to shop</h2>
+
+        <div>
           <a href="#">Browse products</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Publix Pharmacy</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Publix Liquors</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Publix GreenWise Market</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Publix apparel &amp; gifts</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Gift cards</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Click here to contact us through email</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Need help with something?</a>
-        </li>
-        <li>
+        </div>
+        <div>
           <a href="#">Store Info Contact Us</a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   )
 }
