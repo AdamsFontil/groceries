@@ -7,7 +7,7 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-    <div>
+    <div className='bg-white-800'>
       <Quicklinks />
       <Header location={'North Miami'} />
       <Body />

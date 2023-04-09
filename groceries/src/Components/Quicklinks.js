@@ -2,22 +2,22 @@ import React from 'react'
 
 function Quicklinks() {
   return (
-    <div className='flex'>
-      <ul>
-        <li>
-          <a href="#">Catering</a>
+    <div className='bg-green-800 flex flex-row justify-end'>
+      <ul className="flex">
+        <li className="mx-2">
+          <a href="#" className="text-white underline">Catering</a>
         </li>
-        <li>
-          <a href="#">Gift Cards</a>
+        <li className="mx-2">
+          <a href="#" className="text-white underline">Gift Cards</a>
         </li>
-        <li>
-          <a href="#">Order Sushi</a>
+        <li className="mx-2">
+          <a href="#" className="text-white underline">Order Sushi</a>
         </li>
-        <li>
-          <a href="#">Order Subs</a>
+        <li className="mx-2">
+          <a href="#" className="text-white underline">Order Subs</a>
         </li>
-        <li>
-          <a href="#">Weekly Ad</a>
+        <li className="mx-2">
+          <a href="#" className="text-white underline">Weekly Ad</a>
         </li>
       </ul>
     </div>
