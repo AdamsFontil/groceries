@@ -11,10 +11,7 @@ const Body = () => {
       <QuickMenu />
       <Cards />
       <PopularPlatters />
-      <div className='flex flex-row justify-evenly gap-6 h-40vh'>
-        <AdCard />
-        <AdCard />
-      </div>
+      <AdCard />
       <BOGOs />
     </div>
   )
