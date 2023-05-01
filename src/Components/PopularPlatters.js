@@ -1,6 +1,6 @@
 import React from 'react'
-import Image1 from '../Assets/backendPics/Produce/pexels-bruno-scramgnon-23042.jpg'
-import Image2 from '../Assets/backendPics/Produce/pexels-dids-1367232.jpg'
+import Image1 from '../Assets/backendPics/Produce/grapes.jpg'
+import Image2 from '../Assets/backendPics/Produce/bananas.jpg'
 
 const popularPlattersData = [
   {

@@ -3,261 +3,270 @@ const Groceries = {
     {
       'name': 'Apples',
       'price': 0.99,
-      'unit': 'lb',
-      'image': 'src/Assets/pageImages/Produce/pexels-bruno-scramgnon-23042.jpg'
+      'image': 'Assets/backendPics/Produce/pexels-bruno-scramgnon-23042.jpg'
     },
     {
       'name': 'Bananas',
       'price': 0.49,
-      'unit': 'lb'
+      'image': '../src/Assets/backendPics/Produce/pexels-bruno-scramgnon-23042.jpg'
     },
     {
-      'name': 'Carrots',
+      'name': 'Lemons',
       'price': 0.99,
-      'unit': 'lb'
+      'image': './Assets/backendPics/Produce/pexels-bruno-scramgnon-23042.jpg'
     },
     {
-      'name': 'Broccoli',
+      'name': 'Grapes',
       'price': 1.49,
-      'unit': 'lb'
+      'image': '/Assets/backendPics/Produce/pexels-bruno-scramgnon-23042.jpg'
     },
     {
-      'name': 'Lettuce',
+      'name': 'Oranges',
       'price': 1.99,
-      'unit': 'head'
+      'image': '/Users/user/Projects/groceries/src/Assets/backendPics/Produce/pexels-bruno-scramgnon-23042.jpg'
     }
   ],
   'Meat': [
     {
       'name': 'Ground Beef',
       'price': 4.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Boneless Chicken Breasts',
       'price': 3.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Pork Chops',
       'price': 5.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Salmon Fillets',
       'price': 8.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Ribeye Steak',
       'price': 12.99,
-      'unit': 'lb'
+      'image': 'lb'
     }
   ],
   'Deli': [
     {
       'name': 'Roast Beef',
       'price': 8.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Honey Ham',
       'price': 7.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Turkey Breast',
       'price': 6.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Swiss Cheese',
       'price': 5.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Provolone Cheese',
       'price': 4.99,
-      'unit': 'lb'
+      'image': 'lb'
     }
   ],
   'Bakery': [
     {
       'name': 'French Bread',
       'price': 2.99,
-      'unit': 'loaf'
+      'image': 'loaf'
     },
     {
       'name': 'Bagels',
       'price': 3.99,
-      'unit': 'dozen'
+      'image': 'dozen'
     },
     {
       'name': 'Croissants',
       'price': 1.99,
-      'unit': 'each'
+      'image': 'each'
     },
     {
       'name': 'Donuts',
       'price': 0.99,
-      'unit': 'each'
+      'image': 'each'
     },
     {
       'name': 'Cupcakes',
       'price': 3.99,
-      'unit': 'pack'
+      'image': 'pack'
     }
   ],
   'Seafood': [
     {
       'name': 'Shrimp',
       'price': 11.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Tuna Steaks',
       'price': 9.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Crab Legs',
       'price': 16.99,
-      'unit': 'lb'
+      'image': 'lb'
     },
     {
       'name': 'Lobster Tails',
       'price': 24.99,
-      'unit': 'lb'
+      'image': 'lb'
+    },
+    {
+      'name': 'Salmon',
+      'price': 34.99,
+      'image': 'lb'
     },
   ],
   'Frozen Foods': [
     {
       'name': 'Frozen Pizza',
       'price': 4.99,
-      'unit': 'each'
+      'image': 'each'
     },
     {
       'name': 'Ice Cream',
       'price': 3.49,
-      'unit': 'pint'
+      'image': 'pint'
     },
     {
       'name': 'Frozen Vegetables',
       'price': 1.99,
-      'unit': 'bag'
+      'image': 'bag'
     },
     {
       'name': 'Frozen Chicken Nuggets',
       'price': 2.99,
-      'unit': 'bag'
+      'image': 'bag'
     },
     {
       'name': 'Frozen Dinners',
       'price': 5.99,
-      'unit': 'each'
+      'image': 'each'
     }
   ],
   'Grocery': [
     {
       'name': 'Pasta',
       'price': 1.29,
-      'unit': 'box'
+      'image': 'box'
     },
     {
       'name': 'Cereal',
       'price': 3.49,
-      'unit': 'box'
+      'image': 'box'
     },
     {
       'name': 'Canned Soup',
       'price': 0.99,
-      'unit': 'can'
+      'image': 'can'
     },
     {
       'name': 'Peanut Butter',
       'price': 2.99,
-      'unit': 'jar'
+      'image': 'jar'
     },
     {
       'name': 'Jelly',
       'price': 2.49,
-      'unit': 'jar'
+      'image': 'jar'
     }
   ],
   'Household Goods': [
     {
       'name': 'Paper Towels',
       'price': 2.99,
-      'unit': 'roll'
+      'image': 'roll'
     },
     {
       'name': 'Toilet Paper',
       'price': 4.99,
-      'unit': 'pack'
+      'image': 'pack'
     },
     {
       'name': 'Laundry Detergent',
       'price': 8.99,
-      'unit': 'bottle'
+      'image': 'bottle'
     },
     {
       'name': 'Dish Soap',
       'price': 1.99,
-      'unit': 'bottle'
+      'image': 'bottle'
     },
     {
       'name': 'Trash Bags',
       'price': 3.99,
-      'unit': 'box'
+      'image': 'box'
     }
   ],
   'Pharmacy': [
     {
       'name': 'Aspirin',
       'price': 4.99,
-      'unit': 'bottle'
+      'image': 'bottle'
     },
     {
       'name': 'Band-Aids',
       'price': 3.49,
-      'unit': 'box'
+      'image': 'box'
     },
     {
       'name': 'Allergy Medicine',
       'price': 9.99,
-      'unit': 'bottle'
+      'image': 'bottle'
     },
     {
       'name': 'Cold and Flu Medicine',
       'price': 6.99,
-      'unit': 'box'
+      'image': 'box'
     },
     {
       'name': 'Antacid Tablets',
       'price': 2.99,
-      'unit': 'bottle'
+      'image': 'bottle'
     }
   ],
   'Floral': [
     {
       'name': 'Roses',
       'price': 14.99,
-      'unit': 'dozen'
+      'image': 'dozen'
     },
     {
       'name': 'Tulips',
       'price': 9.99,
-      'unit': 'bunch'
+      'image': 'bunch'
     },
     {
       'name': 'Lilies',
       'price': 12.99,
-      'unit': 'bunch'
+      'image': 'bunch'
     },
     {
       'name': 'Carnations',
       'price': 7.99,
-      'unit': 'bunch'
+      'image': 'bunch'
+    },
+    {
+      'name': 'Daisies',
+      'price': 14.99,
+      'image': 'lb'
     },
   ]
 
