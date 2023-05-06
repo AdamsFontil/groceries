@@ -16,14 +16,26 @@
 <li>Express</li>
 </ul>
 
-<h3>Description</h3>
-<p>Publix Clone app created to test both design skills and backend. This site has authentication and uses MongoDB to store those users and the items they have in their carts.</p>
-<p>Although Aldi is my favorite grocer, I like Publix website much more, their design is really pleasing to the eye. I want to see if I can replicate a design from a company where customer service matters a ton, so UI and UX must be top-notch.</p>
+<h3>Features</h3>
+<ul>
+  <li>Page is almost fully responsive on mobile</li>
+  <li>Page has a login page that doesn't really connect to any backend it just takes the username input and says that they've signed in</li>
+  <li>Has a search bar that filters through all the items in the store</li>
+  <li>Has dropdown menu</li>
+  <li>Has dropdown menu</li>
+  <li>Has slider</li>
+  <li>Site is deployed and is updated everytime with every major push to github</li>
 
+
+</ul>
+
+
+<h3>Please Note</h3>
+<p>This is an ongoing project the front-end is somewhat where I want it to be as the page is responsive and it my page is quite similar to the site that I'm replicating. But the backend is still really still a work in progress. I'll update this section with each major breakthrough and update the features sections to reflect the current state of this project.</p>
 
 <h3>Links</h3>
 <ul>
 <li><a href="https://github.com/">GitHub</a></li>
-<li><a href="site.com">Live Site</a></li>
+<li><a href="https://publixclone.netlify.app/">Live Site</a></li>
 </ul>
 <img src="publixClonePic" alt="Publix Clone Screenshot">
