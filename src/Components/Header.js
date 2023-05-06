@@ -53,9 +53,9 @@ function Header( { handleLogin, handleSignUp, user, handleLogout }) {
 
 
   return (
-    <div className="grid grid-cols-3 grid-rows-2 gap-4 p-3 bg-white" style={{ gridTemplateColumns: '.3fr 4fr 3fr', height: '15vh' }}>
+    <div className="grid grid-cols-3 grid-rows-2 gap-4 p-3 bg-white" style={{ gridTemplateColumns: '.3fr 4fr 3fr' }}>
       <div className="col-span-1 row-span-2 flex justify-center items-center" style={{ gridRow: '1 / span 2', gridColumn: '1 / span 1' }}>
-        <img src={logo} alt="Logo" className="h-16 object-contain"/>
+        <img src={logo} alt="Logo" className="w-16 object-contain"/>
       </div>
       <div className="mx-2 col-span-1 row-span-1 " style={{ gridColumn: '2 / span 1', gridRow: '1 / span 1' }}>
         <input

@@ -22,12 +22,12 @@ const info = {
 
 const AdCard = () => {
   return (
-    <div className='flex justify-around gap-4 text-xl'>
+    <div className='flex md:flex-row flex-col justify-around gap-4 p-5 text-xl'>
       {Object.entries(info).map(([key, value]) => (
-        <div key={key} className='relative flex items-center justify-center flex-col border p-8 gap-5' style={{ height: '80vh', width: '80vh' }}>
+        <div key={key} className='relative flex items-center justify-center flex-col p-8 gap-5' >
           <div className='absolute inset-0 bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${value.bg})`, opacity: '.3' }} />
           <div className='relative z-1 flex flex-col items-center justify-center'>
-            <img className='h-64 w-64 border rounded-full bg-white' src={value.image} alt={value.title} />
+            <img className='w-64 h-64 border rounded-full bg-white' src={value.image} alt={value.title} />
             <h2 className='text-3xl'>{value.title}</h2>
             <p>Browse BOGOs, deals, and clip coupons for items you love</p>
             <div className='text-green-800 my-4'>

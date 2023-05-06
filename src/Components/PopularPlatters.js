@@ -44,7 +44,7 @@ const popularPlattersData = [
 
 const PopularPlatters = () => {
   return (
-    <div className='m-5'>
+    <div className='m-5 hidden md:block'>
       <div className='flex justify-between'>
         <h2>Popular Platters</h2>
         <button className='green-400'>View all</button>
@@ -53,7 +53,7 @@ const PopularPlatters = () => {
       <div className='flex mx-8 justify-start ' style={{ height: '' }}>
         {popularPlattersData.map((platter, index) => (
           <div className=' flex flex-col justify-evenly flex-1  gap-5' key={index}>
-            <img className='h-32 object-contain' src={platter.imageUrl} alt={platter.name} />
+            <img className='w-32 object-contain' src={platter.imageUrl} alt={platter.name} />
             <div className=''>
               <p className='text-small'>{platter.name}</p>
               {platter.description && <p>{platter.description}</p>}

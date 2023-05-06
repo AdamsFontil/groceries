@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-gray-600 flex flex-col gap-6 text-white justify-center pl-20' style={{ height: '18vh' }}>
+    <div className='bg-gray-600 flex flex-col gap-6 text-white justify-center pl-20' >
       <div className='flex items-center gap-12 '>
         <p>Terms of Use &amp; Privacy Policy</p>
         <p>Healthcare Nondiscrimination</p>

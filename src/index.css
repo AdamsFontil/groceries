@@ -10,3 +10,26 @@ a {
   color: green;
   text-decoration: underline;
 }
+
+/* style slides  */
+.slick-prev:before, .slick-next:before {
+  color: #6B7280 !important;
+  opacity: 1 !important;
+}
+
+.slick-prev:hover:before, .slick-next:hover:before {
+  color: #10B981 !important;
+}
+
+.slick-prev:before {
+  left: -10px !important;
+}
+
+.slick-next:before {
+  right: -10px !important;
+}
+.slick-progress-bar {
+  background-color: green;
+}
+
+/* style dots  */
