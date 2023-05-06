@@ -31,7 +31,7 @@ function App() {
   }
 
   return (
-    <div className='bg-white-800'>
+    <div className='bg-white-800 text-sm md:text-lg'>
       {showLoginForm && (
         <LoginForm user={user} updateUser={updateUser} onClose={() => setShowLoginForm(false)} />
       )}

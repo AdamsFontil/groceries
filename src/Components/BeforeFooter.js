@@ -3,8 +3,8 @@ import customerService from '../Assets/pageImages/customerService.jpg'
 
 function BeforeFooter() {
   return (
-    <div className='flex flex-col justify-evenly bg-gray-200 p-10'>
-      <div className='flex justify-around'>
+    <div className='flex flex-col justify-evenly bg-gray-200 p-6'>
+      <div className='flex justify-between'>
         <div>
           <h2>Shop with us</h2>
           <div>
@@ -110,13 +110,13 @@ function BeforeFooter() {
           </div>
         </div>
       </div>
-      <div className='flex flex-row gap-5 mx-11'>
+      <div className='flex flex-row gap-5 '>
         <div>
-          <img className='w-28 border rounded-full object-contain' src={customerService} alt='friendly customer service rep' />
+          <img className='w-28 h-28 border rounded-full object-cover' src={customerService} alt='friendly customer service rep' />
         </div>
         <div className='flex flex-col justify-center text-xl'>
-          <a href="#">Need help with something?</a>
-          <a className='text-green-700' href="#">Store Info Contact Us</a>
+          <p>Need help with something?</p>
+          <a className='text-green-700' href="#">Store Info | Contact Us</a>
         </div>
 
       </div>
