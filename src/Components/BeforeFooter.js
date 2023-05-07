@@ -1,122 +1,102 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import customerService from '../Assets/pageImages/customerService.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faInstagram, faTwitter, faPinterest, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 function BeforeFooter() {
   return (
     <div className='flex flex-col justify-evenly bg-gray-200 p-6'>
-      <div className='flex justify-between'>
-        <div>
-          <h2>Shop with us</h2>
-          <div>
+      <div className='text-4xl flex md:hidden justify-center border-b-2 border-gray-700 py-6 pb-6 gap-6'>
+        <FontAwesomeIcon icon={faFacebook} className="text-gray-500" />
+        <FontAwesomeIcon icon={faInstagram} className="text-gray-500" />
+        <FontAwesomeIcon icon={faTwitter} className="text-gray-500" />
+        <FontAwesomeIcon icon={faPinterest} className="text-gray-500" />
+        <FontAwesomeIcon icon={faYoutube} className="text-gray-500" />
+      </div>
+
+      <div className='flex flex-col md:flex-row justify-between '>
+        <div className='border-b-2 border-gray-500 py-6 md:border-b-0'>
+          <div className='flex justify-between items-center'>
+            <h2>Shop with us</h2>
+            <FontAwesomeIcon icon={faPlus} className="text-green-700 md:hidden" />
+          </div>
+          <div className='flex-col hidden md:flex'>
             <a href="#">Locations</a>
-          </div>
-          <div>
             <a href="#">Publix FAQ</a>
-          </div>
-          <div>
             <a href="#">Contact us</a>
-          </div>
-          <div>
             <a href="#">Coronavirus updates</a>
-          </div>
-          <div>
             <a href="#">Policies</a>
-          </div>
-          <div>
             <a href="#">Recalls</a>
-          </div>
-          <div>
             <a href="#">Apps</a>
-          </div>
-          <div>
             <a href="#">Club Publix membership</a>
           </div>
         </div>
-        <div>
-
-          <h2>Work with us</h2>
-
-          <div>
+        <div className='border-b-2 border-gray-500 py-6 md:border-b-0'>
+          <div className='flex justify-between items-center'>
+            <h2>Work with us</h2>
+            <FontAwesomeIcon icon={faPlus} className="text-green-700 md:hidden" />
+          </div>
+          <div className='flex-col hidden md:flex'>
             <a href="#">About Publix</a>
-          </div>
-          <div>
             <a href="#">Careers</a>
-          </div>
-          <div>
             <a href="#">Sustainability</a>
-          </div>
-          <div>
             <a href="#">Community</a>
-          </div>
-          <div>
             <a href="#">Business partners</a>
           </div>
         </div>
-        <div>
-          <h2>Services youll love</h2>
-
-          <div>
+        <div className='border-b-2 border-gray-500 py-6 md:border-b-0'>
+          <div className='flex justify-between items-center'>
+            <h2>Services you'll love</h2>
+            <FontAwesomeIcon icon={faPlus} className="text-green-700 md:hidden" />
+          </div>
+          <div className='flex-col hidden md:flex'>
             <a href="#">Special item requests</a>
-          </div>
-          <div>
             <a href="#">Presto! ATM</a>
-          </div>
-          <div>
             <a href="#">Aprons recipes</a>
-          </div>
-          <div>
             <a href="#">Publix Catering</a>
-          </div>
-          <div>
             <a href="#">Aprons Cooking School</a>
-          </div>
-          <div>
             <a href="#">Health &amp; wellness</a>
-          </div>
-          <div>
             <a href="#">Birthday celebrations</a>
-          </div>
-          <div>
             <a href="#">Shelf tags &amp; icons</a>
-          </div>
-          <div>
             <a href="#">Wedding services</a>
           </div>
         </div>
-        <div>
-
-          <h2 href="#">More ways to shop</h2>
-
-          <div>
+        <div className='border-b-2 border-gray-500 py-6 md:border-b-0'>
+          <div className='flex justify-between items-center'>
+            <h2>More ways to shop</h2>
+            <FontAwesomeIcon icon={faPlus} className="text-green-700 md:hidden" />
+          </div>
+          <div className='flex-col hidden md:flex'>
             <a href="#">Browse products</a>
-          </div>
-          <div>
             <a href="#">Publix Pharmacy</a>
-          </div>
-          <div>
             <a href="#">Publix Liquors</a>
-          </div>
-          <div>
             <a href="#">Publix GreenWise Market</a>
-          </div>
-          <div>
             <a href="#">Publix apparel &amp; gifts</a>
-          </div>
-          <div>
             <a href="#">Gift cards</a>
-          </div>
-          <div>
-            <a href="#">Click here to contact us through email</a>
+            <a href="#">Contact us via email</a>
           </div>
         </div>
       </div>
-      <div className='flex flex-row gap-5 '>
+
+
+
+
+
+
+
+      <div className='text-sm flex flex-row gap-5 pt-5'>
         <div>
-          <img className='w-28 h-28 border rounded-full object-cover' src={customerService} alt='friendly customer service rep' />
+          <img className='w-20 h-20 md:w-28 md:h-28 border rounded-full object-cover' src={customerService} alt='friendly customer service rep' />
         </div>
-        <div className='flex flex-col justify-center text-xl'>
+        <div className='flex flex-col text-lg gap-1 justify-center'>
           <p>Need help with something?</p>
-          <a className='text-green-700' href="#">Store Info | Contact Us</a>
+          <div className='text-green-800 text-sm md:flex md:gap-4 md:text-lg' href="#">
+            <p>Store Info</p>
+            <p className='hidden md:block'>|</p>
+            <p>Contact Us</p>
+          </div>
         </div>
 
       </div>
