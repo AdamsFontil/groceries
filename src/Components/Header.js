@@ -159,7 +159,7 @@ function Header( { handleLogin, handleSignUp, user, handleLogout }) {
 
         </div>
       </div>
-      <div className='flex flex-col md:hidden bg-white gap-4 text-green-900 p-4 pl-6'>
+      <div className='flex flex-col md:hidden text-lg bg-white gap-4 text-green-900 p-6 w-screen'>
         <div className='grid grid-cols-4 text-2xl gap-4'>
           <div className='flex gap-2 items-center col-span-1'>
             <img className='h-12 w-12' src={logo}></img>
@@ -173,9 +173,9 @@ function Header( { handleLogin, handleSignUp, user, handleLogout }) {
             <FontAwesomeIcon icon={faList} className="" />
             <FontAwesomeIcon icon={faShoppingCart} className="" />
           </div>
-          <div className='col-span-5'>
+          <div className='text-md col-span-5'>
             <input
-              className="border border-gray-300 rounded-md h-12 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent "
+              className="border text-sm border-gray-300 rounded-md h-12 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent "
               type="text"
               placeholder='Seach for products and more'
               value={searchValue}
