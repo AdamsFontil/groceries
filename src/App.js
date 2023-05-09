@@ -43,7 +43,7 @@ function App() {
             <Header handleLogin={handleLogin} handleSignUp={handleSignUp} handleLogout={handleLogout} user={user} location='North Miami' />
           </div>
 
-          <div style={{ paddingTop: '30vh' }}>
+          <div className='pt-40'>
             <Body />
             <BeforeFooter />
             <Footer />
